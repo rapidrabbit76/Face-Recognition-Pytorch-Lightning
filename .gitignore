@@ -1,0 +1,49 @@
+# IDE
+
+# ENV 
+.env
+
+# cache
+
+**/__pycache__/**
+
+# TEST
+.vscode/
+.idea/
+
+# Cache
+**/__pycache__/**
+
+# Dataset
+**/data/**
+**/DATASET
+
+# Logs
+**/ckpt/**
+**/log
+
+
+# Logging file
+**/experiments/**
+**/lightning_logs/**
+**/wandb/**
+**/mlruns/**
+
+# Models
+*.pt
+*.onnx
+*.ckpt
+*pth
+*zip
+
+# Jupyter notebooks
+*.ipynb
+
+# TEST
+.testmondata
+temp.py
+temp/data_builder.py
+temp/data_parquet_transformer.py
+temp/data_parser.py
+reports/
+*.xml
