@@ -121,5 +121,13 @@ def transform_batch(args):
 
 
 @pytest.fixture(scope="session")
-def trainer(args, backbone):
-    return ArcFaceTrainer(args, backbone)
+def trainer(args):
+    return ArcFaceTrainer(
+        args,
+        Backbone(
+            backbone="MobileFaceNet",
+            image_channels=args.input_channels,
+            embedding_size=args.embedding_size,
+            dropout_rate=args.dropout_rate,
+        ),
+    )
