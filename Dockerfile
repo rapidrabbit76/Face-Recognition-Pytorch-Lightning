@@ -12,5 +12,4 @@ RUN pip install --no-cache-dir \
     pyarrow==7.0.0 \ 
     tensorboard==2.7.0 \ 
     boto3==1.21.4 \
-    wandb==0.12.10 \
-    python-dotenv 
+    wandb==0.12.10 
