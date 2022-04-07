@@ -18,16 +18,12 @@
 **/data/**
 **/DATASET
 
-# Logs
-**/ckpt/**
-**/log
-
-
 # Logging file
 **/experiments/**
 **/lightning_logs/**
 **/wandb/**
 **/mlruns/**
+**/tensorboard/**
 
 # Models
 *.pt
