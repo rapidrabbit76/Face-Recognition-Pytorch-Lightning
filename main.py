@@ -90,7 +90,7 @@ def hyperparameters():
     parser.add_argument("--lr", type=float)
     parser.add_argument("--momentum", type=float, default=0)
     parser.add_argument("--weight_decay", type=float, default=0)
-    parser.add_argument("--nesterov", action="store_true")
+    parser.add_argument("--nesterov", type=str2bool, default=True)
 
     # optimizer scheduler
     parser.add_argument(
